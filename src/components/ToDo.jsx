@@ -49,7 +49,7 @@ useEffect(() => {
   
     return(
 <div className="main-container">
-    <h2 className="title">To Do List</h2>
+    <h2 className="title">TO DO LIST</h2>
 <form className="form" onSubmit={formik.handleSubmit}>
     <input className="task-input"
     name="taskDescription"
