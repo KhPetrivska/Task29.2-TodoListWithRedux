@@ -1,0 +1,45 @@
+.title{
+    font-size: 40px;
+    margin: 8px;
+    text-align:  center;
+}
+.main-container{
+    margin: 8px;
+    width: 500px;
+    flex-direction: column;
+}
+.form{
+
+    padding: 8px 0px;
+    display: flex;
+}
+
+.task-input{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 22px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.button{
+    margin: 0px 4px;
+    padding:  8px 24px;
+    border: none;
+    border-radius: 22px;
+    background-color: rgb(224, 176, 251);
+}
+
+.task-list-container{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.task-list-item {
+    margin: 4px 0px;
+    padding: 12px 16px;
+    border: solid 1px rgb(224, 176, 251);
+    border-radius: 22px;
+
+}
+
