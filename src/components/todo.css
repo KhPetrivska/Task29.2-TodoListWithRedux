@@ -5,7 +5,7 @@
 }
 .main-container{
     margin: 8px;
-    width: 500px;
+    width: 600px;
     flex-direction: column;
 }
 .form{
@@ -44,9 +44,30 @@
 
 .task-list-item {
     margin: 4px 0px;
-    padding: 12px 16px;
-    border: solid 1px rgb(224, 176, 251);
-    border-radius: 22px;
+    padding: 12px 0px;
+    border-bottom: solid 1px rgb(224, 176, 251);
+    border-radius: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
 
 }
+.btns-edit-delete{
+    display: flex;
+    flex-direction: row; 
+}
 
+.icon-btn{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.material-symbols-outlined{
+background-color: transparent;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between; 
+}
